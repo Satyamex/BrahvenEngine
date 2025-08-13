@@ -1,41 +1,105 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# ======================
+# Build & object files
+# ======================
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
+*.lo
+*.slo
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
+*.dll
+*.so
+*.dylib
 *.exe
 *.out
 *.app
-
-# debug information files
+*.ilk
+*.pdb
 *.dwo
+
+# ======================
+# Precompiled Headers
+# ======================
+*.pch
+*.gch
+
+# ======================
+# Fortran module files
+# ======================
+*.mod
+*.smod
+
+# ======================
+# Debug / profiling files
+# ======================
+*.dSYM/
+*.gcov
+*.prof
+*.pgd
+*.pgi
+
+# ======================
+# Make / autotools / cmake
+# ======================
+Makefile~
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+*.ninja
+build/
+
+# ======================
+# IDE / Editor
+# ======================
+# Visual Studio
+.vs/
+*.vcxproj*
+*.user
+*.suo
+*.ncb
+*.opensdf
+*.ipch
+*.tlog/
+*.lastbuildstate
+
+# Code::Blocks
+*.cbp
+*.depend
+*.layout
+
+# Eclipse
+.project
+.cproject
+.settings/
+.metadata/
+
+# CLion
+.idea/
+*.iml
+
+# Vim / Emacs / MacOS
+*~
+\#*\#
+.\#*
+.DS_Store
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# Temporary files
+# ======================
+*.tmp
+*.swp
+*.bak
+*.old
+
+# ======================
+# Package managers
+# ======================
+*.d/
